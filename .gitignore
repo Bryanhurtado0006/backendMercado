@@ -1,0 +1,17 @@
+# Node modules (¡no se deben subir nunca!)
+node_modules/
+
+# Variables de entorno (como la conexión a MongoDB)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Salida opcional de nodemon
+*.log
