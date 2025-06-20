@@ -23,7 +23,7 @@ router.post('/', async (req, res) => {
 
 router.get('/', async (req, res) => {
   try {
-    console.log('Buscando usuarios...');
+    console.log('Buscando usuarios....');
     const users = await User.find();
     console.log('Usuarios encontrados:', users);
     res.json(users);
