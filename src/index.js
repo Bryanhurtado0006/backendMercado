@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 import express from 'express';
 import mongoose from 'mongoose';
-import userRoutes from './routes/user.js'; 
+import userRoutes from './routes/temp.js'; 
 import { MongoClient } from 'mongodb';
 
 const app = express();
